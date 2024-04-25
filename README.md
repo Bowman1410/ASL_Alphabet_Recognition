@@ -30,7 +30,7 @@ Copy code
 python asl_alphabet_recognition.py
 ```
 ## Results
-The model achieves an accuracy of [insert accuracy here] on the test dataset.
+The model achieves an accuracy of 0.969 on the test dataset.
 
 ## Author
 Iain Bowman
