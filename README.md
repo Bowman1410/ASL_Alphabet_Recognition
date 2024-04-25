@@ -16,7 +16,7 @@ The ASL Alphabet dataset used in this project consists of images representing ea
 ## Usage
 1) Clone the repository:
 ``` bash
-git clone https://github.com/your-username/asl-alphabet-recognition.git
+git clone https://github.com/your-username/ASL_Alphabet_Recognition.git
 cd asl-alphabet-recognition
 ```
 2) Install dependencies:
