@@ -1,5 +1,8 @@
 # ASL Alphabet Recognition
 This repository contains code for building a convolutional neural network (CNN) model to recognize American Sign Language (ASL) alphabets using TensorFlow and Keras.
+* Many factors were taken into concideration as to what neural network architecture to use, but after careful concideration, CNN semed like the natural choice.
+* I chose to integrate Tensorflow in this project for it's "tf.lite.TFLiteConverter" function so this model can be implimented onto a mobile device
+
 
 ## Dataset
 The ASL Alphabet dataset used in this project consists of images representing each letter of the ASL alphabet in American Sign Language. The dataset is organized into three sets: training, validation, and testing. The dataset is availble at: https://www.kaggle.com/datasets/grassknoted/asl-alphabet
@@ -23,11 +26,6 @@ cd asl-alphabet-recognition
 ``` bash
 Copy code
 pip install -r requirements.txt
-```
-3) Run the code:
-```bash
-Copy code
-python asl_alphabet_recognition.py
 ```
 ## Results
 The model achieves an accuracy of 0.969 on the test dataset.
